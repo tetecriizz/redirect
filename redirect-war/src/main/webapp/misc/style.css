@@ -1,0 +1,274 @@
+/************* FUENTES *************/
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300itaâ€Œâ€‹lic,400italic,500,500italic,700,700italic,900italic,900);
+html, body, html * {
+  font-family: 'Roboto', sans-serif !important;
+}
+@font-face {
+    font-family: HelveticaLTStd;
+    font-weight: bold;
+    src: url("fonts/HelveticaLTStd-Bold.otf") format("opentype");
+}
+@font-face {
+    font-family: HelveticaLTStd;
+    src: url("fonts/HelveticaLTStd-Light.otf") format("opentype");
+}
+
+/************* GENERALES *************/
+
+input { 
+    font-family: 'Helvetica' !important;
+}
+html, body {
+    height: 100%;
+    margin: 0 !important;
+}
+body {
+    background: #eee;
+}
+body * {
+    text-decoration: none;
+}
+img {
+	border: 0px;
+}
+.col-2, .col-3, .col-4 , .col-5 , .col-6  {
+    display: inline;
+    float: left
+}
+.col-2 {
+	.width: 16.666667%;
+}
+.col-3 {
+	.width: 25%;
+}
+.col-4 {
+    .width: 33.333333%;
+    float: left;
+}
+.col-6 {
+    .width: 50%;
+    display: inline-block;
+}
+a {
+    color: black;
+}
+a:hover {
+    color: #c80f2e;
+}
+
+/************* HEADER *************/
+.right.bloqueDer {
+    text-align: right;
+    margin-left: -12px;
+    margin-right: 12px;
+    float: right;
+    position: relative;
+    top: 25%;
+}
+p.conselleriaText1 {
+	margin-top: 7px;
+}
+p.conselleriaText2 {
+    margin-top: -11px;
+    margin-bottom: 1px;
+}
+.right.bloqueDer * {
+    color: #c80f2e;
+    font-weight: bold;
+    font-size: 13px;
+}
+.cabecera {
+    height: 105px;
+    border-bottom: 1px solid #c80f2e;
+    width: 100%;
+}
+.dividiomas {
+    font-weight: normal!important;
+    margin: 6px 1px;
+}
+.idioma {
+    font-weight: normal !important;
+}
+img.logo-menu {
+    margin: 15px 30px;
+}
+form#form_sociales {
+    margin-top: -10px;
+}
+.titulotexto {
+    font-size: 23px;
+    font-weight: 500;
+    position: relative;
+    top: 70%;
+}
+img.icon-header {
+    width: 26px;
+    height: 26px;
+}
+.divcab {
+	float: left;
+	display: inline-block;
+}
+
+/************* BODY *************/
+h5.card-header {
+    padding: 11px;
+    background: #c80f2e;
+    margin: 0px;
+    border-radius: 2px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 15px;
+}
+.card-body {
+    padding: 10px 30px;
+    font-size: 13px;
+    background: #f9f9f9;
+}
+.instrucciones {
+    padding: 0px 25px;
+    margin-top: 10px;
+}
+.instrucciones .card form input {
+    padding: 7px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    margin-top: 10px;
+}
+.instrucciones .card form label {
+    text-align: right;
+}
+.form-group {
+    padding: 3px 0px;
+}
+input[type="submit"], .botones {
+    background: #656565;
+    color: white;
+    border: 1px solid #868686;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 25px;
+}
+.botones {
+    width: 44% !important;
+    margin: 2%;
+}
+p.titulo {
+    margin: 10px 4% 10px 4%;
+    border-bottom: 2px solid #c80f2e;
+}
+input {
+    width: 100% !important;
+    padding: 6px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+}
+.card {
+    border: 1px solid #eee;
+    border-radius: 5px;
+    max-width: 500px;
+    width: 380px;
+    vertical-align: middle;
+    text-align: left;
+    display: inline-block;
+    *zoom: 1;
+	*display: inline;
+}
+.contenedor {
+    background: white;
+    margin: 0 auto;
+    border: 1px solid #eee;
+    height: calc(100% - 75px) !important;
+    width: 975px;
+}
+.labeldiv {
+    display: inline-block;
+    min-width: 85px;
+}
+.inputdiv {
+    display: inline-block;
+    width: 100%;
+}
+p.labelerror {
+    color: #c80f2e;
+    margin-top: -10px !important;
+    margin: 0px;
+    padding: 5px;
+    font-weight: bold;
+    font-size: 12px;
+}
+#body {
+    height: 80%;
+}
+.instrucciones2 {
+	margin-top: -10px;
+    height: 80%;
+    text-align: center;
+}
+span.pIdentificacion {
+    display: block;
+    font-size: 11px;
+}
+.portlet-content .portlet-header {
+    border-bottom: 1px solid #565353;
+    padding: 1px 0px;
+}
+.portlet-content .portlet-header span {
+    border-bottom: 2px solid #c80f2e;
+    width: auto;
+}
+.portlet-content .portlet-header span {
+    width: auto;
+    padding: 0px 0;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+
+/************* FOOTER *************/
+div#layout-footer {
+    text-align: center;
+    margin: 0 auto;
+    background: white;
+    border: 1px solid #eee;
+    padding: 1px 0px;
+    border-top: 0px;
+    height: 70px;
+    font-size: 11px;
+    width: 975px;
+}
+div#layout-footer label {
+    display: block;
+    margin: 5px 0px;
+}
+.logo-feder {
+	height: 26px;
+	width: auto;
+	vertical-align: middle;
+}
+
+/************* MEDIA QUERIES *************/
+@media (max-width: 740px) {
+	.cabecera {
+	    height: 200px;
+	}
+	.cabecera > .col-4 {
+    	width: 100%;
+   	    text-align: center ;
+    }
+    .cabecera > .col-6 {
+   	    text-align: center!important;
+	    margin: 0 auto;
+	    width: 100%;
+    }
+    .instrucciones {
+	    margin-top: 20px;
+	}
+}
